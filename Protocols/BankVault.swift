@@ -7,7 +7,6 @@
 //
 
 class BankVault {
-    
     let name: String
     let address: String
     var amount: Double = 0.0
@@ -16,7 +15,6 @@ class BankVault {
         self.name = name
         self.address = address
     }
-    
 }
 
 protocol ProvideAccess {
